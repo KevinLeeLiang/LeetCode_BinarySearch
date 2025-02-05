@@ -16,6 +16,8 @@
 #include <memory>
 #include "L4_findMedianSortedArrays/L4_findMedianSortedArrays.h"
 #include "L33_search/L33_search.h"
+#include "L34_searchRange/L34_searchRange.h"
+#include "L35_searchInsert/L35_searchInsert.h"
 
 class test_factory {
 private:
@@ -25,6 +27,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
         } else if (title == "L33") {
             std::shared_ptr<L33_search> tmp= std::make_shared<L33_search>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
+        } else if (title == "L34") {
+            std::shared_ptr<L34_searchRange> tmp= std::make_shared<L34_searchRange>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
+        } else if (title == "L35") {
+            std::shared_ptr<L35_searchInsert> tmp= std::make_shared<L35_searchInsert>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
         }
     }

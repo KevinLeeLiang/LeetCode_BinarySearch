@@ -9,3 +9,7 @@ LeetCode二分法搜索算法题的解题仓库
 [4. 寻找两个正序数组中的中位数](https://leetcode.cn/problems/median-of-two-sorted-arrays/description/?envType=problem-list-v2&envId=binary-search) : [L4_findMedianSortedArrays](L4_findMedianSortedArrays)
 
 [33. 搜索旋转排序数组](https://leetcode.cn/problems/search-in-rotated-sorted-array/description/?envType=problem-list-v2&envId=binary-search) : [L33_search](L33_search)
+
+[34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/description/?envType=problem-list-v2&envId=binary-search) : [L34_searchRange](L34_searchRange)
+
+[35. 搜索插入位置](https://leetcode.cn/problems/search-insert-position/?envType=problem-list-v2&envId=binary-search) : [L35_searchInsert](L35_searchInsert)
