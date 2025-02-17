@@ -20,6 +20,8 @@
 #include "L35_searchInsert/L35_searchInsert.h"
 #include "L69_mySqrt/L69_mySqrt.h"
 #include "L74_searchMatrix/L74_searchMatrix.h"
+#include "L81_search/L81_search.h"
+#include "L153_findMin/L153_findMin.h"
 class test_factory {
 private:
     void buildSolution(string title) {
@@ -40,6 +42,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
         } else if (title == "L74") {
             std::shared_ptr<L74_searchMatrix> tmp= std::make_shared<L74_searchMatrix>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
+        } else if (title == "L81") {
+            std::shared_ptr<L81_search> tmp= std::make_shared<L81_search>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
+        } else if (title == "L153") {
+            std::shared_ptr<L153_findMin> tmp= std::make_shared<L153_findMin>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
         }
     }

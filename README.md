@@ -17,3 +17,8 @@ LeetCode二分法搜索算法题的解题仓库
 [69. x的平方根](https://leetcode.cn/problems/sqrtx/description/?envType=problem-list-v2&envId=binary-search) : [L69_mySqrt](L69_mySqrt)
 
 [74. 搜索二维矩阵](https://leetcode.cn/problems/search-a-2d-matrix/description/?envType=problem-list-v2&envId=binary-search) : [L74_searchMatrix](L74_searchMatrix)
+
+[81. 搜索旋转排序数组 II](https://leetcode.cn/problems/search-in-rotated-sorted-array-ii/description/?envType=problem-list-v2&envId=binary-search) : [L81_search](L81_search)
+
+[153. 寻找旋转排序数组中的最小值](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/description/?envType=problem-list-v2&envId=binary-search) : [L153_findMin](L153_findMin)
+
