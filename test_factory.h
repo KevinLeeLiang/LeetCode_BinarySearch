@@ -22,6 +22,8 @@
 #include "L74_searchMatrix/L74_searchMatrix.h"
 #include "L81_search/L81_search.h"
 #include "L153_findMin/L153_findMin.h"
+#include "L154_findMin/L154_findMin.h"
+#include "L162_findPeakElement/L162_findPeakElement.h"
 class test_factory {
 private:
     void buildSolution(string title) {
@@ -48,6 +50,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
         } else if (title == "L153") {
             std::shared_ptr<L153_findMin> tmp= std::make_shared<L153_findMin>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
+        } else if (title == "L154") {
+            std::shared_ptr<L154_findMin> tmp= std::make_shared<L154_findMin>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
+        } else if (title == "L162") {
+            std::shared_ptr<L162_findPeakElement> tmp = std::make_shared<L162_findPeakElement>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
         }
     }

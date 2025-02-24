@@ -22,3 +22,6 @@ LeetCode二分法搜索算法题的解题仓库
 
 [153. 寻找旋转排序数组中的最小值](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/description/?envType=problem-list-v2&envId=binary-search) : [L153_findMin](L153_findMin)
 
+[154. 寻找旋转排序数组中的最小值 II](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array-ii/description/?envType=problem-list-v2&envId=binary-search) : [L154_findMin](L154_findMin)
+
+[162. 寻找峰值](https://leetcode.cn/problems/find-peak-element/description/?envType=problem-list-v2&envId=binary-search) : [L162_findPeakElement](L162_findPeakElement)
