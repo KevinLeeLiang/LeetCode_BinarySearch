@@ -24,6 +24,8 @@
 #include "L153_findMin/L153_findMin.h"
 #include "L154_findMin/L154_findMin.h"
 #include "L162_findPeakElement/L162_findPeakElement.h"
+#include "L167_twoSum/L167_twoSum.h"
+#include "L209_minSubArrayLen/L209_minSubArrayLen.h"
 class test_factory {
 private:
     void buildSolution(string title) {
@@ -56,6 +58,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
         } else if (title == "L162") {
             std::shared_ptr<L162_findPeakElement> tmp = std::make_shared<L162_findPeakElement>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
+        } else if (title == "L167") {
+            std::shared_ptr<L167_twoSum> tmp = std::make_shared<L167_twoSum>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
+        } else if (title == "L209") {
+            std::shared_ptr<L209_minSubArrayLen> tmp = std::make_shared<L209_minSubArrayLen>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
         }
     }
