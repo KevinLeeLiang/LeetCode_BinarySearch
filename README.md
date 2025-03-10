@@ -25,3 +25,7 @@ LeetCode二分法搜索算法题的解题仓库
 [154. 寻找旋转排序数组中的最小值 II](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array-ii/description/?envType=problem-list-v2&envId=binary-search) : [L154_findMin](L154_findMin)
 
 [162. 寻找峰值](https://leetcode.cn/problems/find-peak-element/description/?envType=problem-list-v2&envId=binary-search) : [L162_findPeakElement](L162_findPeakElement)
+
+[167. 两数之和 II - 输入有序数组](https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/description/?envType=problem-list-v2&envId=binary-search) : [L167_twoSum](L167_twoSum)
+
+[209. 长度最小的子数组](https://leetcode.cn/problems/minimum-size-subarray-sum/description/?envType=problem-list-v2&envId=binary-search) : [L209_minSubArrayLen](L209_minSubArrayLen)

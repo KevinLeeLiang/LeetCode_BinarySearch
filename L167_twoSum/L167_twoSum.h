@@ -2,7 +2,7 @@
 // Created by garen-lee on 2025/3/10.
 /**
   ******************************************************************************
-  * @file           : L209_minSubArrayLen.h
+  * @file           : L167_twoSum.h
   * @author         : garen-lee
   * @brief          : None
   * @attention      : None
@@ -11,17 +11,18 @@
   */
 //
 
-#ifndef BINARYSEARCH_L209_MINSUBARRAYLEN_H
-#define BINARYSEARCH_L209_MINSUBARRAYLEN_H
+#ifndef BINARYSEARCH_L167_TWOSUM_H
+#define BINARYSEARCH_L167_TWOSUM_H
 
 #include "util.h"
-class L209_minSubArrayLen : public LeetcodeBinarySearch {
+
+class L167_twoSum : public LeetcodeBinarySearch {
 private:
-    int minSubArrayLen(int target, vector<int> &nums);
+    vector<int> twoSum(vector<int>& numbers, int target);
 public:
-    L209_minSubArrayLen() {}
+    L167_twoSum() {}
     void test();
 };
 
 
-#endif //BINARYSEARCH_L209_MINSUBARRAYLEN_H
+#endif //BINARYSEARCH_L167_TWOSUM_H
