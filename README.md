@@ -29,3 +29,7 @@ LeetCode二分法搜索算法题的解题仓库
 [167. 两数之和 II - 输入有序数组](https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/description/?envType=problem-list-v2&envId=binary-search) : [L167_twoSum](L167_twoSum)
 
 [209. 长度最小的子数组](https://leetcode.cn/problems/minimum-size-subarray-sum/description/?envType=problem-list-v2&envId=binary-search) : [L209_minSubArrayLen]
+
+[222. 完全二叉树的节点个数]（https://leetcode.cn/problems/count-complete-tree-nodes/description/?envType=problem-list-v2&envId=binary-search) : [L222_countNodes](L222_countNodes)
+
+[240. 搜索二维矩阵 II](https://leetcode.cn/problems/search-a-2d-matrix-ii/description/?envType=problem-list-v2&envId=binary-search) : [L240_searchMatrix](L240_searchMatrix)

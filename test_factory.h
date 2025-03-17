@@ -26,6 +26,7 @@
 #include "L162_findPeakElement/L162_findPeakElement.h"
 #include "L167_twoSum/L167_twoSum.h"
 #include "L209_minSubArrayLen/L209_minSubArrayLen.h"
+#include "L222_countNodes/L222_countNodes.h"
 
 class test_factory {
 private:
@@ -65,6 +66,9 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
         } else if (title == "L209") {
             std::shared_ptr<L209_minSubArrayLen> tmp = std::make_shared<L209_minSubArrayLen>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
+        } else if (title == "L222") {
+            std::shared_ptr<L222_countNodes> tmp = std::make_shared<L222_countNodes>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
         }
     }
