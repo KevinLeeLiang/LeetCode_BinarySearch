@@ -27,6 +27,9 @@
 #include "L167_twoSum/L167_twoSum.h"
 #include "L209_minSubArrayLen/L209_minSubArrayLen.h"
 #include "L222_countNodes/L222_countNodes.h"
+#include "L240_searchMatrix/L240_searchMatrix.h"
+#include "L268_missingNumber/L268_missingNumber.h"
+#include "L275_hIndex/L275_hIndex.h"
 
 class test_factory {
 private:
@@ -69,6 +72,15 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
         } else if (title == "L222") {
             std::shared_ptr<L222_countNodes> tmp = std::make_shared<L222_countNodes>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
+        } else if (title == "L240") {
+            std::shared_ptr<L240_searchMatrix> tmp = std::make_shared<L240_searchMatrix>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
+        } else if (title == "L268") {
+            std::shared_ptr<L268_missingNumber> tmp = std::make_shared<L268_missingNumber>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
+        } else if (title == "L275") {
+            std::shared_ptr<L275_hIndex> tmp = std::make_shared<L275_hIndex>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
         }
     }

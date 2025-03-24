@@ -30,6 +30,10 @@ LeetCode二分法搜索算法题的解题仓库
 
 [209. 长度最小的子数组](https://leetcode.cn/problems/minimum-size-subarray-sum/description/?envType=problem-list-v2&envId=binary-search) : [L209_minSubArrayLen]
 
-[222. 完全二叉树的节点个数]（https://leetcode.cn/problems/count-complete-tree-nodes/description/?envType=problem-list-v2&envId=binary-search) : [L222_countNodes](L222_countNodes)
+[222. 完全二叉树的节点个数](https://leetcode.cn/problems/count-complete-tree-nodes/description/?envType=problem-list-v2&envId=binary-search) : [L222_countNodes](L222_countNodes)
 
 [240. 搜索二维矩阵 II](https://leetcode.cn/problems/search-a-2d-matrix-ii/description/?envType=problem-list-v2&envId=binary-search) : [L240_searchMatrix](L240_searchMatrix)
+
+[268. 丢失的数字](https://leetcode.cn/problems/missing-number/description/?envType=problem-list-v2&envId=binary-search) : [L268_missingNumber](L268_missingNumber)
+
+[275. H 指数 II](https://leetcode.cn/problems/h-index-ii/description/?envType=problem-list-v2&envId=binary-search) : [L275_hIndex](L275_hIndex)
