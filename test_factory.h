@@ -32,6 +32,7 @@
 #include "L275_hIndex/L275_hIndex.h"
 #include "L278_firstBadVersion/L278_firstBadVersion.h"
 #include "L287_findDuplicate/L287_findDuplicate.h"
+#include "L300_lengthOfLIS/L300_lengthOfLIS.h"
 
 class test_factory {
 private:
@@ -89,6 +90,9 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
         } else if (title == "L287") {
             std::shared_ptr<L287_findDuplicate> tmp = std::make_shared<L287_findDuplicate>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
+        } else if (title == "L300") {
+            std::shared_ptr<L300_lengthOfLIS> tmp = std::make_shared<L300_lengthOfLIS>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
         }
     }
