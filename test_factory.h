@@ -33,6 +33,9 @@
 #include "L278_firstBadVersion/L278_firstBadVersion.h"
 #include "L287_findDuplicate/L287_findDuplicate.h"
 #include "L300_lengthOfLIS/L300_lengthOfLIS.h"
+#include "L315_countSmaller/L315_countSmaller.h"
+#include "L327_countRangeSum/L327_countRangeSum.h"
+#include "L349_intersection/L349_intersection.h"
 
 class test_factory {
 private:
@@ -94,6 +97,17 @@ private:
         } else if (title == "L300") {
             std::shared_ptr<L300_lengthOfLIS> tmp = std::make_shared<L300_lengthOfLIS>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
+        } else if (title == "L327") {
+            std::shared_ptr<L327_countRangeSum> tmp = std::make_shared<L327_countRangeSum>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
+        } else if (title == "L315") {
+            std::shared_ptr<L315_countSmaller> tmp = std::make_shared<L315_countSmaller>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
+        } else if (title == "L349") {
+            std::shared_ptr<L349_intersection> tmp = std::make_shared<L349_intersection>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
+        } else {
+            cout << "no solution" << endl;
         }
     }
 public:
