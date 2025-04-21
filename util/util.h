@@ -31,6 +31,7 @@
 #include <climits>
 #include <cstdint>
 #include<cstdarg>
+#include <map>
 
 using namespace std;
 
@@ -186,13 +187,14 @@ inline ListNode *create_list(vector<int> list_vals) {
     }
     return head;
 }
-inline void print_list(ListNode *head) {
-    ListNode *p = head;
-    while (p != nullptr) {
-        cout << p->val << " ";
-        p = p->next;
+template<typename T>
+void print_vector_vector(vector<vector<T>> &vecs) {
+    for (auto &vec : vecs) {
+        for (auto &item : vec) {
+            cout << item << " ";
+        }
+        cout << endl;
     }
-    cout << endl;
     cout << "__________" << endl;
 }
 #endif //BINARYSEARCH_UTIL_H

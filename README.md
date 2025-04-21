@@ -45,3 +45,11 @@ LeetCode二分法搜索算法题的解题仓库
 [300. 最长递增子序列](https://leetcode.cn/problems/longest-increasing-subsequence/description/?envType=problem-list-v2&envId=binary-search) : [L300_lengthOfLIS](L300_lengthOfLIS)
 
 [315. 计算右侧小于当前元素的个数](https://leetcode.cn/problems/count-of-smaller-numbers-after-self/description/?envType=problem-list-v2&envId=binary-search) : [L315_countSmaller](L315_countSmaller)
+
+[327. 区间和的个数](https://leetcode.cn/problems/count-of-range-sum/description/?envType=problem-list-v2&envId=binary-search) : [L327_countRangeSum](L327_countRangeSum)
+
+[349. 两个数组的交集](https://leetcode.cn/problems/intersection-of-two-arrays/description/?envType=problem-list-v2&envId=binary-search) : [L349_intersection](L349_intersection)
+
+[350. 两个数组的交集 II](https://leetcode.cn/problems/intersection-of-two-arrays-ii/description/?envType=problem-list-v2&envId=binary-search) : [L350_intersection](L350_intersection)
+
+[352. 将数据流变为多个不相交区间](https://leetcode.cn/problems/data-stream-as-disjoint-intervals/description/?envType=problem-list-v2&envId=binary-search) : [L352_summaryRanges](L352_summaryRanges)

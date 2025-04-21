@@ -36,6 +36,8 @@
 #include "L315_countSmaller/L315_countSmaller.h"
 #include "L327_countRangeSum/L327_countRangeSum.h"
 #include "L349_intersection/L349_intersection.h"
+#include "L350_intersect/L350_intersect.h"
+#include "L352_SummaryRanges/L352_SummaryRanges.h"
 
 class test_factory {
 private:
@@ -105,6 +107,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
         } else if (title == "L349") {
             std::shared_ptr<L349_intersection> tmp = std::make_shared<L349_intersection>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
+        } else if (title == "L350") {
+            std::shared_ptr<L350_intersect> tmp = std::make_shared<L350_intersect>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
+        } else if (title == "L352") {
+            std::shared_ptr<L352_SummaryRanges> tmp = std::make_shared<L352_SummaryRanges>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
         } else {
             cout << "no solution" << endl;
