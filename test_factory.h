@@ -38,6 +38,8 @@
 #include "L349_intersection/L349_intersection.h"
 #include "L350_intersect/L350_intersect.h"
 #include "L352_SummaryRanges/L352_SummaryRanges.h"
+#include "L354_maxEnvelopes/L354_maxEnvelopes.h"
+#include "L363_maxSumSubmatrix/L363_maxSumSubmatrix.h"
 
 class test_factory {
 private:
@@ -114,8 +116,12 @@ private:
         } else if (title == "L352") {
             std::shared_ptr<L352_SummaryRanges> tmp = std::make_shared<L352_SummaryRanges>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
-        } else {
-            cout << "no solution" << endl;
+        } else if (title == "L354") {
+            std::shared_ptr<L354_maxEnvelopes> tmp = std::make_shared<L354_maxEnvelopes>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
+        } else if (title == "L363") {
+            std::shared_ptr<L363_maxSumSubmatrix> tmp = std::make_shared<L363_maxSumSubmatrix>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
         }
     }
 public:

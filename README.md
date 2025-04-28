@@ -53,3 +53,7 @@ LeetCode二分法搜索算法题的解题仓库
 [350. 两个数组的交集 II](https://leetcode.cn/problems/intersection-of-two-arrays-ii/description/?envType=problem-list-v2&envId=binary-search) : [L350_intersection](L350_intersection)
 
 [352. 将数据流变为多个不相交区间](https://leetcode.cn/problems/data-stream-as-disjoint-intervals/description/?envType=problem-list-v2&envId=binary-search) : [L352_summaryRanges](L352_summaryRanges)
+
+[354. 俄罗斯套娃信封问题](https://leetcode.cn/problems/russian-doll-envelopes/description/?envType=problem-list-v2&envId=binary-search) : [L354_maxEnvelopes](L354_maxEnvelopes)
+
+[363. 矩形区域不超过 K 的最大数值和](https://leetcode.cn/problems/max-sum-of-rectangle-no-larger-than-k/description/?envType=problem-list-v2&envId=binary-search) : [L363_maxSumSubmatrix](L363_maxSumSubmatrix)
