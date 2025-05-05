@@ -40,6 +40,8 @@
 #include "L352_SummaryRanges/L352_SummaryRanges.h"
 #include "L354_maxEnvelopes/L354_maxEnvelopes.h"
 #include "L363_maxSumSubmatrix/L363_maxSumSubmatrix.h"
+#include "L367_isPerfectSquare/L367_isPerfectSquare.h"
+#include "L374_guessNumber/L374_guessNumber.h"
 
 class test_factory {
 private:
@@ -121,6 +123,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
         } else if (title == "L363") {
             std::shared_ptr<L363_maxSumSubmatrix> tmp = std::make_shared<L363_maxSumSubmatrix>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
+        } else if (title == "L367") {
+            std::shared_ptr<L367_isPerfectSquare> tmp = std::make_shared<L367_isPerfectSquare>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
+        } else if (title == "L374") {
+            std::shared_ptr<L374_guessNumber> tmp = std::make_shared<L374_guessNumber>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
         }
     }
