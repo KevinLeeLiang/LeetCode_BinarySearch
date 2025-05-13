@@ -57,3 +57,9 @@ LeetCode二分法搜索算法题的解题仓库
 [354. 俄罗斯套娃信封问题](https://leetcode.cn/problems/russian-doll-envelopes/description/?envType=problem-list-v2&envId=binary-search) : [L354_maxEnvelopes](L354_maxEnvelopes)
 
 [363. 矩形区域不超过 K 的最大数值和](https://leetcode.cn/problems/max-sum-of-rectangle-no-larger-than-k/description/?envType=problem-list-v2&envId=binary-search) : [L363_maxSumSubmatrix](L363_maxSumSubmatrix)
+
+[374. 猜数字大小](https://leetcode.cn/problems/guess-number-higher-or-lower/description/?envType=problem-list-v2&envId=binary-search) : [L374_guessNumber](L374_guessNumber)
+
+[378. 有序矩阵中第 K 小的元素](https://leetcode.cn/problems/kth-smallest-element-in-a-sorted-matrix/description/?envType=problem-list-v2&envId=binary-search) : [L378_kthSmallest](L378_kthSmallest)
+
+[400. 第 N 位数字](https://leetcode.cn/problems/nth-digit/description/?envType=problem-list-v2&envId=binary-search) : [L400_findNthDigit](L400_findNthDigit)

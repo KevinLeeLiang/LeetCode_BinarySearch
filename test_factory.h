@@ -42,6 +42,11 @@
 #include "L363_maxSumSubmatrix/L363_maxSumSubmatrix.h"
 #include "L367_isPerfectSquare/L367_isPerfectSquare.h"
 #include "L374_guessNumber/L374_guessNumber.h"
+#include "L363_maxSumSubmatrix/L363_maxSumSubmatrix.h"
+#include "L367_isPerfectSquare/L367_isPerfectSquare.h"
+#include "L374_guessNumber/L374_guessNumber.h"
+#include "L378_kthSmallest/L378_kthSmallest.h"
+#include "L400_findNthDigit/L400_findNthDigit.h"
 
 class test_factory {
 private:
@@ -129,6 +134,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
         } else if (title == "L374") {
             std::shared_ptr<L374_guessNumber> tmp = std::make_shared<L374_guessNumber>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
+        } else if (title == "L378") {
+            std::shared_ptr<L378_kthSmallest> tmp = std::make_shared<L378_kthSmallest>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
+        } else if (title == "L400") {
+            std::shared_ptr<L400_findNthDigit> tmp = std::make_shared<L400_findNthDigit>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
         }
     }
