@@ -14,20 +14,20 @@
 #include "L436_findRightInterval.h"
 
 vector<int> L436_findRightInterval::findRightInterval(vector<vector<int>>& intervals) {
-    vector<pair<int, int>>starts_intervals;
+    vector<pair<int, int>>start_intervals;
     int n = intervals.size();
-    for (int i = 0; i < n; ++i) {
-        starts_intervals.push_back({intervals[i][0], i});
+    for (int i = 0; i < n; i++) {
+        start_intervals.emplace_back(intervals[i][0], i);
     }
-    sort(starts_intervals.begin(), starts_intervals.end());
-    vector<int>result(n, -1);
-    for (int i = 0; i < n; ++i) {
-        auto it = lower_bound(starts_intervals.begin(), starts_intervals.end(), intervals[i][1]);
-        if (it != starts_intervals.end()) {
-            result[i] = it->second;
+    sort(start_intervals.begin(), start_intervals.end());
+    vector<int>ans(n, -1);
+    for (int i = 0; i < n; i++) {
+        auto it = lower_bound(start_intervals.begin(), start_intervals.end(), make_pair(intervals[i][1], 0));
+        if (it != start_intervals.end()) {
+            ans[i] = it->second;
         }
     }
-    return result;
+    return ans;
 }
 
 void L436_findRightInterval::test() {
