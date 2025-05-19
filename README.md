@@ -63,3 +63,7 @@ LeetCode二分法搜索算法题的解题仓库
 [378. 有序矩阵中第 K 小的元素](https://leetcode.cn/problems/kth-smallest-element-in-a-sorted-matrix/description/?envType=problem-list-v2&envId=binary-search) : [L378_kthSmallest](L378_kthSmallest)
 
 [400. 第 N 位数字](https://leetcode.cn/problems/nth-digit/description/?envType=problem-list-v2&envId=binary-search) : [L400_findNthDigit](L400_findNthDigit)
+
+[410. 分割数组的最大值](https://leetcode.cn/problems/split-array-largest-sum/description/?envType=problem-list-v2&envId=binary-search) : [L410_splitArray](L410_splitArray)
+
+[436. 寻找右区间](https://leetcode.cn/problems/find-right-interval/description/?envType=problem-list-v2&envId=binary-search) : [L436_findRightInterval](L436_findRightInterval)

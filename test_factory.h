@@ -47,6 +47,7 @@
 #include "L374_guessNumber/L374_guessNumber.h"
 #include "L378_kthSmallest/L378_kthSmallest.h"
 #include "L400_findNthDigit/L400_findNthDigit.h"
+#include "L410_splitArray/L410_splitArray.h"
 
 class test_factory {
 private:
@@ -141,7 +142,10 @@ private:
         } else if (title == "L400") {
             std::shared_ptr<L400_findNthDigit> tmp = std::make_shared<L400_findNthDigit>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
-        }
+        } else if (title == "L410") {
+            std::shared_ptr<L410_splitArray> tmp = std::make_shared<L410_splitArray>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
+        };
     }
 public:
     test_factory(string title) {
