@@ -67,3 +67,7 @@ LeetCode二分法搜索算法题的解题仓库
 [410. 分割数组的最大值](https://leetcode.cn/problems/split-array-largest-sum/description/?envType=problem-list-v2&envId=binary-search) : [L410_splitArray](L410_splitArray)
 
 [436. 寻找右区间](https://leetcode.cn/problems/find-right-interval/description/?envType=problem-list-v2&envId=binary-search) : [L436_findRightInterval](L436_findRightInterval)
+
+[441. 排列硬币](https://leetcode.cn/problems/arranging-coins/description/?envType=problem-list-v2&envId=binary-search) : [L441_arrangeCoins](L441_arrangeCoins)
+
+[456. 132 模式](https://leetcode.cn/problems/132-pattern/description/?envType=problem-list-v2&envId=binary-search) : [L456_find132pattern](L456_find132pattern)

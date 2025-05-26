@@ -49,6 +49,8 @@
 #include "L400_findNthDigit/L400_findNthDigit.h"
 #include "L410_splitArray/L410_splitArray.h"
 #include "L436_findRightInterval/L436_findRightInterval.h"
+#include "L441_arrangeCoins/L441_arrangeCoins.h"
+#include "L456_find132pattern/L456_find132pattern.h"
 
 class test_factory {
 private:
@@ -148,6 +150,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
         } else if (title == "L436") {
             std::shared_ptr<L436_findRightInterval> tmp = std::make_shared<L436_findRightInterval>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
+        } else if (title == "L441") {
+            std::shared_ptr<L441_arrangeCoins> tmp = std::make_shared<L441_arrangeCoins>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
+        } else if (title == "L456") {
+            std::shared_ptr<L456_find132pattern> tmp = std::make_shared<L456_find132pattern>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
         }
     }
