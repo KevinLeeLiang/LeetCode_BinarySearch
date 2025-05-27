@@ -19,12 +19,12 @@ bool L456_find132pattern::find132pattern(vector<int> &nums) {
         return false;
     }
     int left_min = nums[0];
-    multiset<int> right_all;
-    for (int k = 2; k < n; k++) {
+    multiset<int>right_all;
+    for (int k = 2; k < n; ++k) {
         right_all.insert(nums[k]);
     }
-    for (int j = 1; j < n - 1; j++) {
-        if (left_min < nums[j]) {
+    for (int j = 1; j < n - 1; ++j) {
+        if (nums[j] > left_min) {
             auto it = right_all.upper_bound(left_min);
             if (it != right_all.end() && *it < nums[j]) {
                 return true;
