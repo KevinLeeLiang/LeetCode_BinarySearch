@@ -51,6 +51,8 @@
 #include "L436_findRightInterval/L436_findRightInterval.h"
 #include "L441_arrangeCoins/L441_arrangeCoins.h"
 #include "L456_find132pattern/L456_find132pattern.h"
+#include "L475_findRadius/L475_findRadius.h"
+#include "L483_smallestGoodBase/L483_smallestGoodBase.h"
 
 class test_factory {
 private:
@@ -156,6 +158,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
         } else if (title == "L456") {
             std::shared_ptr<L456_find132pattern> tmp = std::make_shared<L456_find132pattern>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
+        } else if (title == "L475") {
+            std::shared_ptr<L475_findRadius> tmp = std::make_shared<L475_findRadius>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
+        } else if (title == "L483") {
+            std::shared_ptr<L483_smallestGoodBase> tmp = std::make_shared<L483_smallestGoodBase>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
         }
     }
