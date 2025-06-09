@@ -71,3 +71,11 @@ LeetCode二分法搜索算法题的解题仓库
 [441. 排列硬币](https://leetcode.cn/problems/arranging-coins/description/?envType=problem-list-v2&envId=binary-search) : [L441_arrangeCoins](L441_arrangeCoins)
 
 [456. 132 模式](https://leetcode.cn/problems/132-pattern/description/?envType=problem-list-v2&envId=binary-search) : [L456_find132pattern](L456_find132pattern)
+
+[475. 供暖器](https://leetcode.cn/problems/heaters/description/?envType=problem-list-v2&envId=binary-search) : [L475_findRadius](L475_findRadius)
+
+[483. 最小好进制](https://leetcode.cn/problems/smallest-good-base/description/?envType=problem-list-v2&envId=binary-search) : [L483_smallestGoodBase](L483_smallestGoodBase)
+
+[493. 翻转对](https://leetcode.cn/problems/reverse-pairs/description/?envType=problem-list-v2&envId=binary-search) : [L493_reversePairs](L493_reversePairs)
+
+[497. 非重叠矩形中的随机点](https://leetcode.cn/problems/random-point-in-non-overlapping-rectangles/description/?envType=problem-list-v2&envId=binary-search) : [L497_randomPointsInNonOverlappingRectangles](L497_randomPointsInNonOverlappingRectangles)
