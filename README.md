@@ -79,3 +79,7 @@ LeetCode二分法搜索算法题的解题仓库
 [493. 翻转对](https://leetcode.cn/problems/reverse-pairs/description/?envType=problem-list-v2&envId=binary-search) : [L493_reversePairs](L493_reversePairs)
 
 [497. 非重叠矩形中的随机点](https://leetcode.cn/problems/random-point-in-non-overlapping-rectangles/description/?envType=problem-list-v2&envId=binary-search) : [L497_randomPointsInNonOverlappingRectangles](L497_randomPointsInNonOverlappingRectangles)
+
+[528. 按权重随机选择](https://leetcode.cn/problems/random-pick-with-weight/description/?envType=problem-list-v2&envId=binary-search) : [L528_pickIndex](L528_pickIndex)
+
+[532. 数组中的k-diff数对](https://leetcode.cn/problems/k-diff-pairs-in-an-array/description/?envType=problem-list-v2&envId=binary-search) : [L532_findPairs](L532_findPairs)

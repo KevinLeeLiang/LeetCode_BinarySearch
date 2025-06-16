@@ -55,6 +55,8 @@
 #include "L483_smallestGoodBase/L483_smallestGoodBase.h"
 #include "L493_reversePairs/L493_reversePairs.h"
 #include "L497_randomPointsInNonOverlappingRectangles/L497_randomPointsInNonOverlappingRectangles.h"
+#include "L528_RandomlySelectByWeight/L528_RandomlySelectByWeight.h"
+#include "L532_findPairs/L532_findPairs.h"
 
 class test_factory {
 private:
@@ -172,6 +174,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
         } else if (title == "L497") {
             std::shared_ptr<L497_randomPointsInNonOverlappingRectangles> tmp = std::make_shared<L497_randomPointsInNonOverlappingRectangles>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
+        } else if (title == "L528") {
+            std::shared_ptr<L528_RandomlySelectByWeight> tmp = std::make_shared<L528_RandomlySelectByWeight>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
+        } else if (title == "L532") {
+            std::shared_ptr<L532_findPairs> tmp = std::make_shared<L532_findPairs>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
         }
     }
