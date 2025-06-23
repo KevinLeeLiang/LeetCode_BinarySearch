@@ -57,6 +57,8 @@
 #include "L497_randomPointsInNonOverlappingRectangles/L497_randomPointsInNonOverlappingRectangles.h"
 #include "L528_RandomlySelectByWeight/L528_RandomlySelectByWeight.h"
 #include "L532_findPairs/L532_findPairs.h"
+#include "L540_singleNonDuplicate/L540_singleNonDuplicate.h"
+#include "L611_triangleNumber/L611_triangeNumber.h"
 
 class test_factory {
 private:
@@ -180,6 +182,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
         } else if (title == "L532") {
             std::shared_ptr<L532_findPairs> tmp = std::make_shared<L532_findPairs>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
+        } else if (title == "L540") {
+            std::shared_ptr<L540_singleNonDuplicate> tmp = std::make_shared<L540_singleNonDuplicate>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
+        } else if (title == "L611") {
+            std::shared_ptr<L611_triangeNumber> tmp = std::make_shared<L611_triangeNumber>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
         }
     }

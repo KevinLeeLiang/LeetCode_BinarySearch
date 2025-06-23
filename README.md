@@ -83,3 +83,7 @@ LeetCode二分法搜索算法题的解题仓库
 [528. 按权重随机选择](https://leetcode.cn/problems/random-pick-with-weight/description/?envType=problem-list-v2&envId=binary-search) : [L528_pickIndex](L528_pickIndex)
 
 [532. 数组中的k-diff数对](https://leetcode.cn/problems/k-diff-pairs-in-an-array/description/?envType=problem-list-v2&envId=binary-search) : [L532_findPairs](L532_findPairs)
+
+[540. 有序数组中的单一元素](https://leetcode.cn/problems/single-element-in-a-sorted-array/description/?envType=problem-list-v2&envId=binary-search) : [L540_singleNonDuplicate](L540_singleNonDuplicate)
+
+[611. 有效三角形的个数](https://leetcode.cn/problems/valid-triangle-number/description/?envType=problem-list-v2&envId=binary-search) : [L611_triangleNumber](L611_triangleNumber)
