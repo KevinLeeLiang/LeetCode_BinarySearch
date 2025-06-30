@@ -87,3 +87,7 @@ LeetCode二分法搜索算法题的解题仓库
 [540. 有序数组中的单一元素](https://leetcode.cn/problems/single-element-in-a-sorted-array/description/?envType=problem-list-v2&envId=binary-search) : [L540_singleNonDuplicate](L540_singleNonDuplicate)
 
 [611. 有效三角形的个数](https://leetcode.cn/problems/valid-triangle-number/description/?envType=problem-list-v2&envId=binary-search) : [L611_triangleNumber](L611_triangleNumber)
+
+[633. 平方数之和](https://leetcode.cn/problems/sum-of-square-numbers/description/?envType=problem-list-v2&envId=binary-search) : [L633_judgeSquareSum](L633_judgeSquareSum)
+
+[658. 找到 K 个最接近的元素](https://leetcode.cn/problems/find-k-closest-elements/description/?envType=problem-list-v2&envId=binary-search) : [L658_findClosestElements](L658_findClosestElements)

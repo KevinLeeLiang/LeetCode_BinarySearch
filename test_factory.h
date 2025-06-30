@@ -59,6 +59,8 @@
 #include "L532_findPairs/L532_findPairs.h"
 #include "L540_singleNonDuplicate/L540_singleNonDuplicate.h"
 #include "L611_triangleNumber/L611_triangeNumber.h"
+#include "L633_judgeSquareSum/L633_judgeSquareSum.h"
+#include "L658_findClosestElements/L658_findClosestELements.h"
 
 class test_factory {
 private:
@@ -188,6 +190,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
         } else if (title == "L611") {
             std::shared_ptr<L611_triangeNumber> tmp = std::make_shared<L611_triangeNumber>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
+        } else if (title == "L633") {
+            std::shared_ptr<L633_judgeSquareSum> tmp = std::make_shared<L633_judgeSquareSum>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
+        } else if (title == "L658") {
+            std::shared_ptr<L658_findClosestELements> tmp = std::make_shared<L658_findClosestELements>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
         }
     }
