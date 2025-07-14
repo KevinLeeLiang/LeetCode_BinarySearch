@@ -62,6 +62,8 @@
 #include "L633_judgeSquareSum/L633_judgeSquareSum.h"
 #include "L658_findClosestElements/L658_findClosestELements.h"
 #include "L668_findKthNumber/L668_findKthNumber.h"
+#include "L704_binarySearch/L704_binarySearch.h"
+#include "L710_random/L710_random.h"
 
 class test_factory {
 private:
@@ -200,6 +202,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
         } else if (title == "L668") {
             std::shared_ptr<L668_findKthNumber> tmp = std::make_shared<L668_findKthNumber>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
+        } else if (title == "L704") {
+            std::shared_ptr<L704_binarySearch> tmp = std::make_shared<L704_binarySearch>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
+        } else if (title == "L710") {
+            std::shared_ptr<L710_random> tmp = std::make_shared<L710_random>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
         }
     }

@@ -91,3 +91,7 @@ LeetCode二分法搜索算法题的解题仓库
 [633. 平方数之和](https://leetcode.cn/problems/sum-of-square-numbers/description/?envType=problem-list-v2&envId=binary-search) : [L633_judgeSquareSum](L633_judgeSquareSum)
 
 [658. 找到 K 个最接近的元素](https://leetcode.cn/problems/find-k-closest-elements/description/?envType=problem-list-v2&envId=binary-search) : [L658_findClosestElements](L658_findClosestElements)
+
+[704. 二分查找](https://leetcode.cn/problems/binary-search/description/?envType=problem-list-v2&envId=binary-search) : [L704_binarySearch](L704_binarySearch)
+
+[710. 黑名单中的随机数](https://leetcode.cn/problems/random-pick-with-blacklist/description/?envType=problem-list-v2&envId=binary-search) : [L710_random](L710_random)
