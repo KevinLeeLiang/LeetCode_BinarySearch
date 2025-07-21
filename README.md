@@ -95,3 +95,5 @@ LeetCode二分法搜索算法题的解题仓库
 [704. 二分查找](https://leetcode.cn/problems/binary-search/description/?envType=problem-list-v2&envId=binary-search) : [L704_binarySearch](L704_binarySearch)
 
 [710. 黑名单中的随机数](https://leetcode.cn/problems/random-pick-with-blacklist/description/?envType=problem-list-v2&envId=binary-search) : [L710_random](L710_random)
+
+[713. 乘积小于 K 的子数组](https://leetcode.cn/problems/subarray-product-less-than-k/description/?envType=problem-list-v2&envId=binary-search) : [L713_numSubarrayProductLessThanK](L713_numSubarrayProductLessThanK)

@@ -64,6 +64,7 @@
 #include "L668_findKthNumber/L668_findKthNumber.h"
 #include "L704_binarySearch/L704_binarySearch.h"
 #include "L710_random/L710_random.h"
+#include "L713_numSubarrayProductLessThanK/L713_numSubarrayProductLessThanK.h"
 
 class test_factory {
 private:
@@ -208,6 +209,9 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
         } else if (title == "L710") {
             std::shared_ptr<L710_random> tmp = std::make_shared<L710_random>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
+        } else if (title == "L713") {
+            std::shared_ptr<L713_numSubarrayProductLessThanK> tmp = std::make_shared<L713_numSubarrayProductLessThanK>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBinarySearch>(tmp);
         }
     }
